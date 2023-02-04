@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+/* images below temporarily adjusted to aid in ease of page construction */
+.card-one-image, .card-two-image, .card-three-image, .card-four-image {
+    width: 15%;
+    height: auto%;
+}
+
+.body-one-image {
+    width: 25%;
+    height: auto;
+}
+
+/* images above temporarily adjusted to aid in ease of page construction */
