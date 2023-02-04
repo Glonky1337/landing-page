@@ -9,52 +9,92 @@
 </head>
     <body>
         <header>
-            <nav class="header">
-                <div class="header-logo">Header Logo</div>
-                <ul class="header-links">
+            <nav id="header">
+                <div id="logo">Header Logo</div>
+                <ul id="header-links">
                     <li onclick="window.location.href='#';">Header Link One</li>
                     <li onclick="window.location.href='#';">Header Link Three</li>
                     <li onclick="window.location.href='#';">Header Link Two</li>
                 </ul>
             </nav>
         </header>
+        <!-- clear -->
         <main>
-            <div class="body-one">
-                <div class="body-one-left">
-                    <div class="webpage-subject">This website is awesome</div>
-                    <div class="webpage-description">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
-                    <button class="sign-up" onclick="window.location.href='https://www.github.com/Glonky1337';">Sign up</button>
+            <section id="about">
+                <div id="about-text">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                    <button id="sign-up-button" onclick="window.location.href='https://www.github.com/Glonky1337';">Sign up</button>
                 </div>
-                <div class="body-one-right">
-                    <img src="./images/south-america-directions.jpeg" class="body-one-image" alt="Multicolored Signage. Credit: Carolyn from pexels.com">
+                <div id="about-image">
+                    <img src="./images/south-america-directions.jpeg" class="image" alt="Multicolored Signage. Credit: Carolyn from pexels.com">
                 </div>
-            </div>
-            <div class="body-two">
-                <div class="body-two-top">Some random information.</div>
-                <div class="body-two-bottom">
-                    <div class="card-one">
-                        <img src="./images/torres-del-paine-magallanes-and-chilean-antarctica-chile.jpeg" class="card-one-image" alt="Torres del Paine, Magallanes and Chilean Antarctica, Chile. Credit: Lorraine Kinnear">
-                        <p class="card-one-text">this is some subtext under an illustration or image</p>
+            </section>
+        <!-- clear -->
+            <section id="features">
+                <h2>Some random information.</h2>
+                <div id="features-container">
+                    <div class="feature one">
+                        <img src="./images/torres-del-paine-magallanes-and-chilean-antarctica-chile.jpeg" class="image" alt="Torres del Paine, Magallanes and Chilean Antarctica, Chile. Credit: Lorraine Kinnear">
+                        <div class="feature-text one">
+                            <h3>This is feature one</h3>
+                            <p>This is some subtext under an image</p>
+                        </div>
                     </div>
-                    <div class="card-two">
-                        <img src="./images/pelourinho-brazil.jpeg" class="card-two-image" alt="Pelourinho, BA, Brazil. Credit: Mario Pais Cie">
-                        <p class="card-two-text">this is some subtext under an illustration or image</p>
+                    <div class="feature two">
+                        <img src="./images/pelourinho-brazil.jpeg" class="image" alt="Pelourinho, BA, Brazil. Credit: Mario Pais Cie">
+                        <div class="feature-text two">
+                            <h3>This is feature two</h3>
+                            <p>This is some subtext under an image</p>
+                        </div>
                     </div>
-                    <div class="card-three">
-                        <img src="./images/santiago-metropolitan-region-chile.jpeg" class="card-three-image" alt="Santiago, Santiago Metropolitan Region, Chile. Credit: Alisha Lubben">
-                        <p class="card-three-text">this is some subtext under an illustration or image</p>
+                    <div class="feature three">
+                        <img src="./images/santiago-metropolitan-region-chile.jpeg" class="image" alt="Santiago, Santiago Metropolitan Region, Chile. Credit: Alisha Lubben">
+                        <div class="feature-text three">
+                            <h3>This is feature three</h3>
+                            <p>This is some subtext under an image</p>
+                        </div>
                     </div>
-                    <div class="card-four">
-                        <img src="./images/las-cruces-region-de-valparaiso-chile.jpeg" class="card-four-image" alt="Las Cruces, Region de Valparaiso, Chile. Credit: Alisha Lubben">
-                        <p class="card-four-text">this is some subtext under an illustration or image</p>
+                    <div class="feature four">
+                        <img src="./images/las-cruces-region-de-valparaiso-chile.jpeg" class="image" alt="Las Cruces, Region de Valparaiso, Chile. Credit: Alisha Lubben">
+                        <div class="feature-text four">
+                            <h3>This is feature four</h3>
+                            <p>This is some subtext under an image</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="body-three">
-                <div class="body-two-top">This is an inspiring quote, or a tesstimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-                <div class="body-two-bottom">-Thor, God of Thunder</div>
-            </div>
-            <div class="body-four">
+            </section>
+            <!-- CLEAR -->
+            <section id="testimonials">
+                <h2>This is an inspiring quote, or a tesstimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</h2>
+                <div id="testimonals-container">
+                    <div class="testimonial one">
+                        <p>"This is a testimonial."</p>
+                        <div class="testimonial-profile one">
+                            <img src="./images/testimonial1.jpeg" class="image" alt="Selfie atop snowy mountain. Credit: Vanja Cerovac">
+                        </div>
+                    </div>
+                    <div class="testimonial two">
+                        <p>"This is a testimonial."</p>
+                        <div class="testimonial-profile two">
+                            <img src="./images/testimonial2.jpeg" class="image" alt="Selfie in jungle. Credit: Vanessa Garcia">
+                        </div>
+                    </div>
+                    <div class="testimonial three">
+                        <p>"This is a testimonial."</p>
+                        <div class="testimonial-profile three">
+                            <img src="./images/testimonial3.jpeg" class="image" alt="Selfie in desert. Credit: Keenan Constance">
+                        </div>
+                    </div>
+                    <div class="testimonial four">
+                        <p>"This is a tesimonial."</p>
+                        <div class="testimonial-profile four">
+                            <img src="./images/testimonial4.jpeg" class="image" al="Selfie in tropical climate. Credit: Teguh Sugi">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="body-four">
                 <div class="body-four-container">
                     <div class="body-four-container-left">
                         <div class="container-title">Call to action! It's time!</div>
@@ -62,7 +102,7 @@
                     </div>
                     <button class="body-four-container-button">Sign Up</button>
                 </div>
-            </div>
+            </section>
         </main>
         <footer>
             <div class="footer">Copyright © github.com/Glonky1337</div>
