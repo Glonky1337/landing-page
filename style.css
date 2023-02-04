@@ -3,21 +3,15 @@ body {
     flex-direction: column;
     margin: 0;
 }
-/* images below temporarily adjusted to aid in ease of page construction */
-.card-one-image, .card-two-image, .card-three-image, .card-four-image {
+/* images below temporarily adjusted to aid in ease of page construction. REMOVE ASSOCIATED HTML ONCE FINISHED*/
+
+.image {
     width: 15%;
     height: auto%;
 }
-
-.body-one-image {
-    width: 25%;
-    height: auto;
-}
-
-/* images above temporarily adjusted to aid in ease of page construction */
+/* images above temporarily adjusted to aid in ease of page construction REMOVE ASSOCIATED HTML ONCE FINISHED*/
 /* begin header section */
-
-.header {
+#header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -27,14 +21,14 @@ body {
     padding: 20px;
 }
 
-.header-logo {
+#logo {
     display: flex;
     flex-shrink: 0;
     font-size: 30px;
     font-weight: 600;
 }
 
-.header-links {
+#header-links {
     display: flex;
     font-size: 18px;
 }
@@ -48,3 +42,4 @@ ul {
     padding: 0;
 }
 /* end header section */
+
