@@ -61,6 +61,8 @@ body {
 }
 
 #about #about-text-container > h1 {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 48px;
     font-weight: 900px;
     margin: 0;
