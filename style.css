@@ -106,6 +106,12 @@ ul {
     background-color: #818d9d;
 }
 
+#features h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
 #features-container {
     display: flex;
     flex-direction: row;
@@ -135,9 +141,8 @@ ul {
     align-items: center;
     gap: 10px;
     text-align: center;
+    
 }
-/* ADJUST and ASSIGN font-size!!! */
-
 
 .feature-text h3,p {
     margin: 0;
@@ -149,7 +154,9 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 #testimonials h2 {
@@ -157,6 +164,10 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1F2937;
 }
 
 #testimonials-container {
