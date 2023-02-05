@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     margin: 0;
 }
-/* begin header section */
+/* Header section */
 #header {
     display: flex;
     flex-direction: row;
@@ -18,28 +18,27 @@ body {
     padding: 20px;
 }
 
-#logo {
+#header #logo {
     display: flex;
     flex-shrink: 0;
     font-size: 30px;
     font-weight: 600;
 }
 
-#header-links {
+#header #header-links {
     display: flex;
     font-size: 18px;
 }
 
-ul {
+#header ul {
     display: flex;
     flex-direction: row;
     gap: 15px;
-    list-style-type: none;
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
-/* end header section */
-/* begin about section */
+/* About section */
 #about {
     display: flex;
     justify-content: center;
@@ -52,39 +51,39 @@ ul {
     color: white;
 }
 
-#about-text-container {
+#about #about-text-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     min-width: 434px;
     max-width: 30vw;
     gap: 10px;
-    flex-wrap: wrap;
 }
 
-#about-text-container > h1 {
+#about #about-text-container > h1 {
     font-size: 48px;
     font-weight: 900px;
     margin: 0;
 }
 
-#about-text-container > p {
+#about #about-text-container > p {
     font-size: 18px;
     padding-bottom: 10px;
 }
 
-#sign-up-button {
+#about #sign-up-button {
     width: 125px;
     height: 35px;
     font-size: 18px;
     font-weight: 900;
-    background-color: #3882f6;
-    color: white;
     padding: 5px;
     border-radius: 8px;
     border-style: none;
+    background-color: #3882f6;
+    color: white;
 }
 
-#about-image-container {
+#about #about-image-container {
     display: flex;
     min-width: 434px;
     max-width: 30vw;
@@ -94,8 +93,7 @@ ul {
     width: 100%;
     border-radius: 8px;
 }
-/* end about section */
-/* begin features section */
+/* Features Section */
 #features {
     display: flex;
     flex-direction: column;
@@ -107,9 +105,9 @@ ul {
 }
 
 #features h2 {
+    text-align: center;
     font-size: 36px;
     font-weight: 900;
-    text-align: center;
 }
 
 #features-container {
@@ -147,23 +145,22 @@ ul {
 .feature-text h3,p {
     margin: 0;
 }
-/* end features section */
-/* begin testimonials section */
+/* Testimonials section */
 #testimonials {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
     padding-top: 20px;
     padding-bottom: 50px;
+    background-color: #E5E7EB;
 }
 
 #testimonials h2 {
-    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 600px;
     font-size: 36px;
     font-weight: 900;
     text-align: center;
@@ -187,8 +184,8 @@ ul {
 
 .testimonial-text {
     width: 300px;
-    font-style: italic;
     padding-bottom: 10px;
+    font-style: italic;
 }
 .testimonial-profile {
     display: flex;
@@ -211,8 +208,7 @@ ul {
     margin: 0;
     padding: 0;
 }
-/* end testimonial section */
-/* begin sign-up section */
+/* Sign-up section */
 #sign-up {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -222,15 +218,15 @@ ul {
 #sign-up-container {
     display: flex;
     align-items: center;
-    background: #3b82f6;
+    gap: 100px;
     width: 50%;
-    margin: auto;
-    border-radius: 8px;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 30px;
     padding-right: 30px;
-    gap: 100px;
+    border-radius: 8px;
+    margin: auto;
+    background: #3b82f6;
 }
 
 .newsletter-header, .newsletter-text {
@@ -247,18 +243,16 @@ ul {
     display: flex;
     width: 125px;
     height: 35px;
-    font-size: 18px;
-    font-weight: 900;
-    background-color: #3882f6;
-    color: white;
     padding: 5px;
     border-radius: 8px;
     border-style: none;
     border: 3px solid white;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
 }
-/* end sign-up section */
-/* begin footer section */
-
+/* Footer section */
 #footer {
     display: flex;
     justify-content: center;
